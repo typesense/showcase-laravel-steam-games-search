@@ -11,6 +11,13 @@ export const env = createEnv({
     client: {
         VITE_APP_NAME: z.string().min(1),
         VITE_TYPESENSE_READ_ONLY_API_KEY: z.string().min(1),
+        VITE_TYPESENSE_HOST: z.string().min(1),
+        // Parse the string as a number https://env.t3.gg/docs/recipes#numbers
+        VITE_TYPESENSE_PORT: z
+            .string()
+            .transform((s) => parseInt(s, 10))
+            .pipe(z.number()),
+        VITE_TYPESENSE_PROTOCOL: z.string().min(1),
     },
 
     /**

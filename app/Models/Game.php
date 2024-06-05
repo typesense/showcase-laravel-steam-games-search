@@ -48,6 +48,8 @@ class Game extends Model
             // Use the UNIX timestamp for Typesense integration
             // https://typesense.org/docs/26.0/api/collections.html#indexing-dates
             "release_date" => $this->release_date->timestamp,
+            // Cast it as string in order to query by it
+            "app_id" => (string) $this->app_id,
         ]);
     }
 

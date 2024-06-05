@@ -19,6 +19,7 @@
         "laravel-vite-plugin": "^1.0",
         "postcss": "^8.4.31",
         "prettier": "3.3.1",
+        "prettier-plugin-tailwindcss": "^0.6.1",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "tailwindcss": "^3.2.1",
@@ -27,6 +28,8 @@
     },
     "dependencies": {
         "@t3-oss/env-core": "^0.10.1",
+        "date-fns": "^3.6.0",
+        "lucide-react": "^0.390.0",
         "react-instantsearch": "^7.11.0",
         "typesense": "^1.8.2",
         "typesense-instantsearch-adapter": "^2.8.0",
