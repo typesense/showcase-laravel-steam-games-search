@@ -24,5 +24,12 @@
         "tailwindcss": "^3.2.1",
         "typescript": "^5.0.2",
         "vite": "^5.0"
+    },
+    "dependencies": {
+        "@t3-oss/env-core": "^0.10.1",
+        "react-instantsearch": "^7.11.0",
+        "typesense": "^1.8.2",
+        "typesense-instantsearch-adapter": "^2.8.0",
+        "zod": "^3.23.8"
     }
 }
