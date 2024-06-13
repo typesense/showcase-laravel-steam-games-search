@@ -188,10 +188,6 @@ return [
                 "collection-schema" => [
                     "fields" => [
                         [
-                            "name" => "id",
-                            "type" => "int32",
-                        ],
-                        [
                             "name" => "name",
                             "type" => "string",
                         ],
